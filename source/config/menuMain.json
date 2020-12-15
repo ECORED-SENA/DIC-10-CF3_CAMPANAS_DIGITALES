@@ -39,5 +39,12 @@
         "anchor": "tema1_3"
       }       
     ]   
-  }  
+  },
+  {
+    "id": 0,
+    "icon": "fa fa-question-circle",
+    "slug": "actividad_didactica",
+    "title": "Actividad didáctica",    
+    "path": "pages/actividad-1.html"
+  }
 ]
