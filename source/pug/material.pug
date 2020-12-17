@@ -37,18 +37,18 @@ html(lang="es")
 
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
                                     +navTemaItem('play', 'Introducción', '#introduccion')
-                                    +navTemaItem('1', 'Normativa vigente proceso ECCL', '#tema-1')
+                                    +navTemaItem('1', 'Construcción de audiencias', '#tema-1')
                                     +navTemaItem('question', 'Actividad didáctica', '#evaluacion')
                                     +navTemaItem('glosary', 'Glosario', '#glosario')
                                     +navTemaItem('folder', 'Material complementario', '#anexos')
                                     +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
 
 
-        section#mainContent         
+        section#mainContent        
             #introduccion
                 include pages/introduccion.pug
             #tema-1
-                include pages/1-tema.pug
+                include pages/tema-1.pug
             #evaluacion
                 include pages/actividad-1.pug
             #glosario
