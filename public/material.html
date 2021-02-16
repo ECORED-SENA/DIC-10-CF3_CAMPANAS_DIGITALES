@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>Caracterización de audiencias</title>
+        <meta meta name="description" content="Equipo de Ecosistema de recursos educativos SENA encargado del desarrollo y rediseño de cursos virtuales de aprendizaje para el SENA.">
+        <link rel="icon" type="image/svg+xml" href="assets/images/logos/senaLogo.svg">
+        <link rel="stylesheet" href="assets/fonts/feather/feather.css">
+        <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.css">
+        <link href="assets/css/fancybox.css" rel="stylesheet">
+        <link href="assets/css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body class="theme-dark page-header-textura" id="page-home">
+        <header class="curso-presentacion page-header" id="CursoPresentacion">
+            <div class="page-textura">
+                <div class="container">
+                    <div class="curso-topbar justify-content-center justify-content-md-between"><a class="curso-topbar__logo"><svg xmlns="http://www.w3.org/2000/svg" width="168.273" height="164.177" viewBox="0 0 168.273 164.177">
+                                <path id="SENA_LOGO" data-name="SENA LOGO" d="M85.349,1a18.09,18.09,0,1,0,18.09,18.09h0A18.1,18.1,0,0,0,85.349,1ZM25.617,42.983a33.722,33.722,0,0,0-9.386,1.024,11.156,11.156,0,0,0-5.12,2.56A5.346,5.346,0,0,0,10.086,52.2c.683,1.707,2.56,2.9,4.608,3.584,4.437,1.536,9.386,1.877,13.994,2.731a5.1,5.1,0,0,1,2.389,1.024,1.369,1.369,0,0,1-.683,2.048,9.146,9.146,0,0,1-5.291.683A8.354,8.354,0,0,1,20.5,61.244a1.962,1.962,0,0,1-.853-2.389H9.233A7.663,7.663,0,0,0,10.6,63.463a7.59,7.59,0,0,0,4.267,2.389A28.541,28.541,0,0,0,23.4,66.876,52.426,52.426,0,0,0,35,66.023a11.043,11.043,0,0,0,5.8-2.9,5.358,5.358,0,0,0-1.365-8.533,21.267,21.267,0,0,0-5.8-2.048c-3.072-.683-5.973-1.024-9.045-1.536a9.114,9.114,0,0,1-3.072-.853,1.226,1.226,0,0,1,0-2.219,9.369,9.369,0,0,1,4.437-.683,10.554,10.554,0,0,1,4.608.853A1.877,1.877,0,0,1,31.59,49.81h9.9a5.669,5.669,0,0,0-1.195-3.584A8.875,8.875,0,0,0,35.515,43.5c-3.584-.341-6.827-.512-9.9-.512Zm21.333.683V67.217H75.792V62.1H57.531V57.489H73.744V52.54H57.531V48.786H75.109v-5.12Zm47.615,0H81.253V67.217H91.322V51.346l13.824,15.872h13.824V43.666H108.9v15.7Zm42.495,0L120.676,67.217h10.581l2.56-4.267H150.2l2.389,4.267h11.776l-15.53-23.551ZM142.35,49.3l5.12,8.533h-10.41ZM.7,74.044l.171,12.8L49,86.673c2.389.512,3.925,2.048,3.413,5.8l-29.7,51.711,9.557,9.045L78.01,74.044Zm91.646,0L137.4,152.89l9.9-8.874L117.433,92.3c-.512-3.584.853-5.291,3.413-5.8l48.127.171V74.044ZM84.837,87.185,42.512,159.546l11.264,5.461,28.159-47.615a4.283,4.283,0,0,1,2.9-1.195,4.681,4.681,0,0,1,3.072,1.195l28.159,47.786,11.605-5.973Z" transform="translate(-0.7 -1)" fill="#FF6B00" />
+                            </svg>
+                        </a><a class="curso-topbar__menubar collapsed btn-menu-responsive d-none" data-toggle="collapse" href="#curso-topbar__nav" aria-expanded="false"><span></span><span></span><span></span></a>
+                        <nav class="curso-topbar__nav collapse show d-none d-md-block" id="curso-topbar__nav">
+                            <ul class="curso-topbar__list">
+                                <li class="curso-topbar__item"><a class="curso-topbar__link" href="#ResultadosAprendizaje"><span class="text-white">Resultados de aprendizaje</span></a></li>
+                                <li class="curso-topbar__item"><a class="curso-topbar__link" href="#IndiceTematico"><span class="text-white">Contenidos</span></a></li>
+                                <li class="curso-topbar__item"><a class="curso-topbar__link" href="#Creditos"><span class="text-white">Créditos</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="curso-portada">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6">
+                                <h3 class="curso-subtitulo" id="curso-titulo-componente">Caracterización de audiencia para campañas digitales </h3>
+                                <h1 class="curso-titulo" id="curso-titulo-tema">Caracterización de audiencias</h1>
+                                <div class="brand-line-primary"></div>
+                                <p class="curso-descripcion">Este módulo del curso se enfoca en la programación de audiencias en el entorno digital, con el fin de enlazar la caracterización del <i>Buyer</i> persona a las campañas de social media en el contexto actual. </p>
+                            </div>
+                            <div class="col-12 col-lg-6 text-center">
+                                <div class="d-none d-lg-block"><img class="curso-imagen" src="assets/images/header/header_media.svg" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="curso-resultados section bg-base-light" id="ResultadosAprendizaje">
+            <div class="container">
+                <h2> Resultados de <br>aprendizaje</h2>
+                <div class="brand-line-primary"></div>
+                <div class="card resultado-item">
+                    <div class="card-body">
+                        <h5><strong>Cod. 260101033-03</strong></h5>
+                        <p class="mb-0">Programar las audiencias según el plan de marketing digital.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="curso-indice-tematico section" id="IndiceTematico">
+            <div class="container">
+                <h2>Desarrollo de <br>contenidos</h2>
+                <div class="brand-line-primary"></div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-10">
+                        <div class="card wow flipInX" data-wow-delay=".4s">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush list my-n3 nav-temas">
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-play"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#introduccion">Introducción</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#introduccion">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">1</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#tema-1">Construcción de audiencias</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#tema-1">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-question"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#evaluacion">Actividad didáctica</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#evaluacion">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-sort-alpha-asc"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#glosario">Glosario</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#glosario">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-folder-open"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#anexos">Material complementario</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#anexos">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-book"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#referencias">Referencias bibliográficas</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#referencias">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="mainContent">
+            <div id="introduccion">
+                <div class="container" id="page-introduccion">
+                    <div class="header-ecored">
+                        <h1>Introducción</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-9 my-5"><img src="assets/images/pages/tema_1/introduccion.svg" alt="" style="width:100%"></div>
+                            <div class="col-12">
+                                <p>En el escenario digital emergen nuevas formas de comunicación, que han venido transformando la comunicación tradicional en un concepto más mediático y enfocado a las nuevas audiencias conformadas por públicos diversos generacionalmente, geográficamente y culturalmente, que tienen acceso a los mismos medios digitales pero que se ven expuestos a su vez a un sinfín de información.</p>
+                                <p>Esta unidad temática se enfoca en entender la programación de audiencias en el entorno digital, con el fin de enlazar la caracterización del Buyer persona a las campañas digitales, que actualmente están determinadas por los diferentes y constantes desarrollos tecnológicos, configurando nuevas formas para llegar a los públicos.</p>
+                                <p>Si bien se abordan temas que permiten conocer la estructura de una campaña digital, el objetivo principal se enfoca en la articulación de las audiencias con las campañas o estrategias digitales.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-1">
+                <div class="container" id="tema_1">
+                    <div class="header-ecored">
+                        <h1>1. Construcción de audiencias </h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8 d-flex justify-content-center my-3"><img src="assets/images/pages/tema_1/img_1_01.svg" alt="" style="width:100%"></div>
+                            <div class="col-12">
+                                <p>Los públicos son cada vez más selectivos frente a los contenidos que consumen, dichos contenidos están determinados por sus gustos, preferencias, intereses y las nuevas formas de consumir contenidos condicionada a los avances tecnológicos como los nuevos dispositivos y medios integrados, que permiten que en los diferentes dispositivos como un celular, una <i>tablet</i> o una computadora se pueda simultáneamente ver un video, enviar un mensaje, interactuar en las redes sociales o simplemente escuchar música. Esto hace que construir una audiencia requiera de un conocimiento más profundo del target o público objetivo a la hora de planear una campaña digital. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="header-ecored mt-3" id="tema1_1">
+                                    <h2>1.1 Definición de audiencia </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8 d-flex justify-content-center my-3"><img src="assets/images/pages/tema_1/img_1_1_01.svg" alt="" style="width:100%"></div>
+                            <div class="col-12">
+                                <p class="mb-0">La definición de audiencia ha tenido varios enfoques que se centran en la mediación que existe entre los medios y los públicos. Sin ir más allá la audiencia se puede referir a un grupo de personas que consumen o reciben información emitida por los diferentes medios masivos como el cine, la televisión, la radio, las revistas, los libros, la prensa, los espectáculos y la internet a través de dispositivos digitales. Por lo anterior se puede concluir que una audiencia digital es aquella que consume contenidos a través de medios y canales, utilizando dispositivos digitales.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="header-ecored mt-3" id="tema1_2">
+                                    <h2>1.2 La construcción de audiencias en la campaña digital</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-5">
+                            <div class="col-12">
+                                <p>Es importante recordar que un plan de comunicación a parte de obedecer a unos objetivos de marketing, a su vez contempla una serie de estrategias dentro de las que se puede implementar una campaña digital. La finalidad de una campaña digital es la de acercar la marca, sus productos y/o servicios a una audiencia digital con los objetivos de:</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center mb-5">
+                            <div class="col-auto mb-5 mb-lg-0"> <img src="assets/images/pages/tema_1/img_1_2_01.svg" alt="" style="width:450px"></div>
+                            <div class="col-auto">
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mb-2">Posicionar la marca en el entorno digital</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mb-2">Visibilizar la imagen de la marca</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mb-2">Hacer presencia digital (presencia online)</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mb-2">Buscar nuevos clientes o contactos</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mb-2">Interactuar con el público</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mb-2">Vender productos o servicios</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mb-2">Mostrar un catálogo</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mb-2">Lanzar un nuevo producto</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mb-2">Captar información del público</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mb-0">Reforzar una campaña publicitaria</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hr-divider my-5"></div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_duoble_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <h3>Estructura de campaña digital</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-12">
+                                <p>Las campañas digitales integran una serie de etapas y acciones enfocadas a conseguir resultados, se trata de desarrollar un plan de campaña alineado al plan general de comunicación y a los objetivos propuestos.</p>
+                                <p>Uno de los modelos más utilizados para estructurar un plan de campaña es el modelo SOSTAC (Situation, Objectives, Strategy, Tactics, Action y Control), creado por Chaffey y Smith (2008). Este modelo contempla 6 etapas cruciales para cualquier estrategia o campaña digital (ver figura 1).</p>
+                            </div>
+                            <div class="col-12 col-lg-7 my-5"> <img src="assets/images/pages/tema_1/info_1_01.svg" alt="" style="width:100%"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="list mb-4">
+                                    <div class="list__item">
+                                        <div class="list__item__bulletNumber"><span>1 </span></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p><strong>Situación</strong></p>
+                                        <p>Se trata de hacer un análisis interno y externo de la marca frente al mercado, ello implica:</p>
+                                        <div class="list">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p>Identificar las debilidades, amenazas, fortalezas y oportunidades a través de la implementación del análisis DAFO.</p>
+                                            </div>
+                                        </div>
+                                        <div class="list">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p>Tener un conocimiento de la audiencia digital: para ello es importante tener identificado previamente al Buyer persona complementado con el target o público objetivo, el análisis del estilo de vida, el mapa de empatía y el lienzo de valor.</p>
+                                            </div>
+                                        </div>
+                                        <div class="list">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p>Tener definido al consumidor y su ecosistema digital.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hr-divider my-5"></div>
+                                <div class="list mb-4">
+                                    <div class="list__item">
+                                        <div class="list__item__bulletNumber"><span>2 </span></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p><strong>Objetivos</strong></p>
+                                        <p>Esta etapa define los objetivos que se quieren lograr con la campaña digital, como se ha venido mencionando a lo largo del curso estos deben estar alineados con los objetivos de la estrategia de marketing y a su vez deben ser específicos, medibles, aplicables y relevantes. </p>
+                                    </div>
+                                </div>
+                                <div class="hr-divider my-5"></div>
+                                <div class="list mb-4">
+                                    <div class="list__item">
+                                        <div class="list__item__bulletNumber"><span>3 </span></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p><strong>Estrategias</strong></p>
+                                        <p>Aquí se define la ruta para poder alcanzar los objetivos propuestos en la etapa anterior. Ejemplo: estrategia de marketing digital.</p>
+                                    </div>
+                                </div>
+                                <div class="hr-divider my-5"></div>
+                                <div class="list mb-4">
+                                    <div class="list__item">
+                                        <div class="list__item__bulletNumber"><span>4 </span></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p><strong>Tácticas</strong></p>
+                                        <p>Hace referencia a cada uno de los procedimientos para desarrollar las estrategias. Ejemplo: E-Marketing, uso de aplicaciones móviles, comercio electrónico, social media. Etc.</p>
+                                    </div>
+                                </div>
+                                <div class="hr-divider my-5"></div>
+                                <div class="list mb-4">
+                                    <div class="list__item">
+                                        <div class="list__item__bulletNumber"><span>5</span></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p><strong>Acciones</strong></p>
+                                        <p>Consiste en iniciar la campaña verificando que todas las tácticas sean adecuadas para la audiencia y definir un plan de acción adecuado que responda a las siguientes preguntas definidas como las 5 w (Trias, González, & Flores, 2009):</p>
+                                        <div class="list">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mb-2">Who? (¿Quién?). Quién lo va a realizar. </p>
+                                            </div>
+                                        </div>
+                                        <div class="list">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mb-2">What? (¿Qué?). Qué se va a realizar. </p>
+                                            </div>
+                                        </div>
+                                        <div class="list">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mb-2">Where? (¿Dónde?). Dónde se va a realizar.</p>
+                                            </div>
+                                        </div>
+                                        <div class="list">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mb-2">When? (¿Cuándo?). Cuándo se va a realizar. </p>
+                                            </div>
+                                        </div>
+                                        <div class="list">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p class="mb-0">How? (¿Cómo?). Cómo se va a realizar.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hr-divider my-5"></div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__bulletNumber"><span>6</span></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p class="mb-0"><strong>Control</strong></p>
+                                        <p>Esta etapa define los indicadores que medirán los objetivos planteados, lo cual significa que debe existir una relación entre el objetivo y el indicador.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hr-divider my-5"></div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_duoble_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <h3>Canales y medios</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8 d-flex justify-content-center my-3"><img src="assets/images/pages/tema_1/img_1_2_02.svg" alt="" style="width:100%"></div>
+                            <div class="col-12">
+                                <p>Dentro de la estructura de la campaña digital basada en el modelo SOSTAC, las tácticas involucran los canales y medios de difusión, por lo cual es pertinente diferenciar dichos conceptos dentro del entorno digital.</p>
+                                <p>Los medios son los que generalmente buscan la atención de la audiencia, también se refieren a todo lo que se utiliza para poder dar a conocer el mensaje. Ejemplo: televisión, radio, prensa, publicidad, Facebook Ads, YouTube, Google AdWords. Normalmente los medios tradicionales son unidireccionales, es decir, solo pueden enviar información.</p>
+                                <p>Los canales hacen referencia a la tecnología que se va a utilizar para mantener una comunicación de forma bidireccional con los públicos, es decir, se envía y se recibe información. Ejemplo: teléfono fijo, celular, WhatsApp, Facebook, chat, Instagram, correo electrónico, mensajería etc.</p>
+                                <p>Por lo tanto, dentro de un contexto digital es importante definir los medios a utilizar cuando lo único que se pretende es comunicar un mensaje a las audiencias. En el caso de los canales a utilizar se pueden definir cuando a parte de comunicar un mensaje, también se quiere recibir información por parte de la audiencia.</p>
+                                <p>Otro aspecto relevante es que, si bien los medios tradicionales son unidireccionales en la comunicación, existen nuevos medios como Facebook, Instagram, WhatsApp entre otros, que a su vez son canales.</p>
+                            </div>
+                        </div>
+                        <div class="hr-divider my-5"></div>
+                        <div class="row mb-5">
+                            <div class="col-12">
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_duoble_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <h3>Indicadores</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <p>Un indicador se puede definir como un instrumento que permite recolectar información medible o cuantificable, para evaluar el resultado o progreso de un objetivo. Una campaña sin indicadores establecidos no evidenciará progresos que permitan medir su impacto frente a la audiencia.</p>
+                                <p>En la etapa de control del modelo SOSTAC, se habla de la definición de indicadores que permitan medir los objetivos planteados, esto con la finalidad de conocer el retorno de inversión en medios. Los indicadores principales que se utilizan para la medición y el control de una estrategia digital son: </p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center mb-5">
+                            <div class="col-12 col-lg-6 mb-5"> <img src="assets/images/pages/tema_1/img_1_2_03.svg" alt="" style="width:100%"></div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-12">
+                                <p>De acuerdo con Mejía (2019) el marketing digital cuenta con herramientas de medición que permiten reconocer el éxito o fracaso de una campaña o estrategia digital. Mejía a su vez divide los indicadores en 3 grupos descritos en la siguiente tabla:</p>
+                            </div>
+                            <div class="col-12 col-lg-10 d-flex justify-content-center mt-5"><img src="assets/images/pages/tema_1/img_1_3_02.png" alt="" style="width:100%"></div>
+                        </div>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="header-ecored mt-3" id="tema1_3">
+                                    <h2>1.3 Análisis y creación de audiencias digitales</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-10 d-flex justify-content-center mb-5"><img src="assets/images/pages/tema_1/img_1_3_01.svg" alt="" style="width:100%"></div>
+                            <div class="col-12">
+                                <p>El análisis de audiencia es necesario para tener un conocimiento más profundo de los individuos que interactúan y reciben la información de la marca. Este proceso permite entender aspectos de la audiencia relacionados con sus prácticas sociales, hábitos de consumo de medios, intereses, interacción y socialización en un entorno digital.</p>
+                                <p>Para hacer un análisis de las audiencias digitales, se tiene que definir primero la segmentación del target y el Buyer persona, con el fin de hacer el comparativo de la actividad del cliente en el entorno digital versus el cliente ideal de la marca.</p>
+                                <p class="mb-0">Un segundo aspecto para el análisis de audiencia es tener identificados los medios y canales que utiliza el Buyer persona, esto permitirá definir las herramientas de análisis.</p>
+                            </div>
+                        </div>
+                        <div class="hr-divider my-5"></div>
+                        <div class="row justify-content-center mb-5">
+                            <div class="col-12">
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_duoble_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <h3>Herramientas para análisis y creación de audiencias</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-5">
+                                <p>Existen múltiples herramientas que permiten analizar datos de los usuarios en sus diferentes entornos digitales, estas se utilizan para facilitar la búsqueda, la categorización, la relación y toda la comprensión de la infinidad de datos que se pueden analizar de la audiencia.</p>
+                                <p>A continuación, se presentan algunas de las herramientas que actualmente se utilizan para el análisis digital de sitios web y redes sociales: </p>
+                            </div>
+                            <div class="col-9">
+                                <div class="card-media">
+                                    <div class="card-media__body">
+                                        <figure class="card__figure"><img src="assets/images/pages/tema_1/icon_01.svg" alt=""></figure>
+                                        <div class="card__copy">
+                                            <h3>Google Analytics </h3>
+                                            <p>Es una herramienta gratuita de Google que permite analizar el tráfico web en tiempo real permitiendo tener un informe de:</p>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Número de visitas.</p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Duración de visita.</p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Comportamiento de los usuarios.</p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Seguimiento de campañas.</p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Interacciones.</p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Datos de conversión.</p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Palabras clave.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="card-media">
+                                    <div class="card-media__body">
+                                        <figure class="card__figure"><img src="assets/images/pages/tema_1/icon_02.svg" alt=""></figure>
+                                        <div class="card__copy">
+                                            <h3>Google Ads </h3>
+                                            <p>Esta herramienta de Google también es de acceso gratuito y se usa para ofrecer campañas de anuncios o publicidad en diferentes medios online, de forma patrocinada que aparecerán cuando los usuarios realizan búsquedas en Google. Dentro de las ventajas de usar esta herramienta se pueden mencionar:</p>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Generación inmediata de tráfico. </p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Accesible económicamente.</p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Permite segmentar al público objetivo de la campaña.</p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Generar posicionamiento de marca.</p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Permite usar palabras claves para los usuarios en sus búsquedas por Google.</p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Es rentable para el anunciante. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="card-media">
+                                    <div class="card-media__body">
+                                        <figure class="card__figure"><img src="assets/images/pages/tema_1/icon_03.svg" alt=""></figure>
+                                        <div class="card__copy">
+                                            <h3>Google Trends </h3>
+                                            <p>Es una herramienta de Google Labs que se utiliza para buscar términos populares y actuales que las personas buscan por internet. Esto permite tener un conocimiento de lo que buscan los clientes potenciales y así tomar decisiones asociadas a los intereses del target. Algunos de sus utilidades más relevantes son:</p>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Identificar patrones de búsqueda.</p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Frecuencia de búsqueda de palabras o temas.</p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Lugares en los que más se busca algún tema o palabra.</p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Conocer tendencias de palabras más buscadas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="card-media">
+                                    <div class="card-media__body">
+                                        <figure class="card__figure"><img src="assets/images/pages/tema_1/icon_04.svg" alt=""></figure>
+                                        <div class="card__copy">
+                                            <h3>Audiense Insights</h3>
+                                            <p>Es una herramienta de Facebook que se utiliza para obtener información de las personas que se conectan a la página y a la red social de Facebook, esto permite conocer detalles y tener información de las personas que interactúan directa o indirectamente con la página. Dentro de la información que brinda esta herramienta se puede encontrar:</p>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Datos demográficos.</p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Intereses y pasatiempos.</p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Información de estilo de vida.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="card-media">
+                                    <div class="card-media__body">
+                                        <figure class="card__figure"><img src="assets/images/pages/tema_1/icon_05.svg" alt=""></figure>
+                                        <div class="card__copy">
+                                            <h3>Iconosquare</h3>
+                                            <p>Esta herramienta ayuda a gestionar y monitorear eficazmente la cuenta de Instagram. Dentro de sus utilidades se encuentran: </p>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Hacer seguimiento de la cuenta.</p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Promocionar la cuenta.</p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Tener información relevante de imágenes, comentarios.</p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Determinar horas más adecuadas para realizar publicaciones.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="card-media">
+                                    <div class="card-media__body">
+                                        <figure class="card__figure"><img src="assets/images/pages/tema_1/icon_06.svg" alt=""></figure>
+                                        <div class="card__copy">
+                                            <h3>Alexa Traffic</h3>
+                                            <p>Es una herramienta de Amazon que se encarga de analizar el tráfico web a nivel mundial, clasificando a los sitios web por orden de popularidad, basándose en el comportamiento de navegación de los usuarios. Los datos que ofrece esta herramienta se refieren a: </p>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Descripción del sitio web: número de visitas, compromiso, demografía, fuentes de tráfico, sitios de referencia, etc.</p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Ranking de los sitios más populares.</p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Comparación del sitio web frente a otras páginas.</p>
+                                                </div>
+                                            </div>
+                                            <div class="list">
+                                                <div class="list__item">
+                                                    <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                </div>
+                                                <div class="list__txt">
+                                                    <p class="mb-2">Información de palabras clave.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="evaluacion">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Actividad didáctica</h1>
+                    </div>
+                    <div class="row align-items-center justify-content-center my-5">
+                        <div class="col-8 col-lg-5 col-xl-4 mb-5">
+                            <figure><img src="assets/images/pages/actividad/img_actividad.svg" alt=""></figure>
+                        </div>
+                        <div class="col-12 col-lg-7">
+                            <hr class="line-100 bg-orange">
+                            <div class="text-center p-2">
+                                <h2>¡Ponga a prueba su conocimiento! </h2>
+                                <p>La siguiente actividad tiene como propósito validar los conocimientos relacionados con el tema <strong>Caracterización de audiencias</strong>.</p><a class="btn btn-colour-Orange" href="media/actividad-1/index.html" target="_blank">Iniciar </a>
+                            </div>
+                            <hr class="line-100 bg-orange">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="glosario">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Glosario</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <p><strong class="mr-2">Alcance:</strong>significación, efecto o trascendencia de algo. Aquel desastre tuvo alcance nacional. (Real Academia Española, 2019)</p>
+                        <hr>
+                        <p><strong class="mr-2">Audiencia:</strong>número de individuos destinatarios que reciben mensajes a través de un medio de comunicación y que, en ocasiones, interactúa con ellos. Las audiencias suelen dividirse según diversas variables, como la edad o el sexo, para determinar los contenidos que se les ofrecen. (Marketing Directo, 2020)</p>
+                        <hr>
+                        <p><strong class="mr-2">Bidireccional:</strong>de dos direcciones. Acción, comunicación bidireccional. (Real Academia Española, 2019)</p>
+                        <hr>
+                        <p><strong class="mr-2">Contenido:</strong>el contenido de un sitio web incluye, por ejemplo, texto, imágenes o vídeos. (<i>Marketing</i> Directo, 2020)</p>
+                        <hr>
+                        <p><strong class="mr-2"><i>Engagement</i>: </strong>el engagement es un anglicismo que hace referencia a la aptitud de una marca para generar compromiso con sus consumidores a través de relaciones persistentes y estables.Cuanto mejor sea nuestra relación con el cliente mejor podremos conocer al mismo y aportar un valor diferencial que mejore nuestro posicionamiento y percepción como marca. (Arimetrics, 2020)</p>
+                        <hr>
+                        <p><strong class="mr-2">Entorno digital: </strong>según Mintic el entorno digital se refiere a “el ambiente, tanto físico como virtual sobre el cual se soporta la economía digital. Siendo esta última la economía basada en tecnologías, cuyo desarrollo y despliegue se produce en un ecosistema caracterizado por la creciente y acelerada convergencia entre diversas tecnologías, que se concreta en redes de comunicación, equipos de hardware, servicios de procesamiento y tecnologías web.” (Mintic, 2020)</p>
+                        <hr>
+                        <p><strong class="mr-2"><i>Insight</i>: </strong>un <i>insight</i> es el conocimiento en la forma de perspectiva, la comprensión o la deducción. Alguien puede venir con una idea después de un largo período de pensamiento o de repente de la nada, como en una revelación o comprensión súbita. (Arimetrics, 2020)</p>
+                        <hr>
+                        <p><strong class="mr-2"><i>like</i>: </strong>un <i>like</i> ( me gusta, en español) es una característica incorporada en redes sociales y otras plataformas online que permite al usuario dar un feedback positivo a cualquier tipo de contenido, y de esta forma conectar con aquello que les interesa. (Arimetrics, 2020) </p>
+                        <hr>
+                        <p><strong class="mr-2">Presencia online: </strong>la presencia online es la existencia en los medios digitales a través de los distintos sistemas de búsqueda online. En la era digital es uno de los requisitos imprescindibles para las empresas. Es la representación online de una empresa o persona. Además de la web también se compone de presencia en marketplaces, redes sociales y correos electrónicos. La marca propia forma parte de la presencia online. (Arimetrics, 2020) </p>
+                        <hr>
+                        <p><strong class="mr-2">Plan de <i>Social media</i>: </strong>es un anglicismo que significa “medio sociales”, es decir el conjunto de plataformas digitales donde el contenido es creado, visualizado y compartido por sus usuarios. El término Social Media adquiere vital importancia con la irrupción de las redes sociales, el pilar del social media y que han revolucionado por completo la forma en que los usuarios interactúan entre sí y generan y comparten información. (Arimetrics, 2020) </p>
+                        <hr>
+                        <p><strong class="mr-2"><i>Ranking</i>: </strong>relación de marcas de un sector por su orden de importancia. (Marketing Directo, 2020) </p>
+                        <hr>
+                        <p><strong class="mr-2">Tráfico digital: </strong>es la cantidad de usuarios que visitan un sitio web o red social</p>
+                        <hr>
+                        <p><strong class="mr-2"><i>Trending Topic</i>: </strong>en la red social Twitter, los <i>trending topics (TT)</i> son las principales palabras clave o hashtags que se discuten entre sus usuarios de Twitter en tiempo real y que forman una lista de tendencias que incluye habitualmente unos 20 conceptos. Estas tendencias son una forma eficaz y fácil de ver cuáles son los temas de actualidad en el mundo o en determinada área y quién está hablando de ellos. (Arimetrics, 2020)</p>
+                        <hr>
+                        <p><strong class="mr-2">Unidireccional: </strong>de una sola dirección. (Real Academia Española, 2019)</p>
+                    </div>
+                </div>
+            </div>
+            <div id="anexos">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Material complementario</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <table class="table table-bordered table-striped">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th class="text-center">Autor, (año del documento o material), Nombre del documento o material.</th>
+                                    <th class="text-center">Tipo de material ( Video, capítulo de libro, artículo, otro) </th>
+                                    <th class="text-center" style="width:150px">Enlace del Recurso o Archivo del documento o material</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Google. (2020). Support.google. https://support.google.com/analytics/answer/1008015?hl=es</td>
+                                    <td>Página web</td>
+                                    <td> <a href="https://support.google.com/analytics/answer/1008015?hl=es" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Visitar </a></td>
+                                </tr>
+                                <tr>
+                                    <td>Google. (2020). Support.google.com. https://support.google.com/google-ads/answer/6146252?hl=es-419</td>
+                                    <td>Página web </td>
+                                    <td> <a href="https://support.google.com/google-ads/answer/6146252?hl=es-419" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Visitar </a></td>
+                                </tr>
+                                <tr>
+                                    <td>Google. (2020). Support.google.com. https://support.google.com/trends/answer/6248105?hl=es&ref_topic=6248052</td>
+                                    <td>Página web </td>
+                                    <td> <a href="https://support.google.com/trends/answer/6248105?hl=es&amp;ref_topic=6248052" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Visitar </a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div id="referencias">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Referencias bibliográficas</h1>
+                    </div>
+                    <div class="jumbotron bg-white referencias">
+                        <p>Arimetrics. (18 de noviembre de 2020). Qué es Insight. Arimetrics.<a class="ml-2" href="https://www.arimetrics.com/glosario-digital/insight" target="_blank">https://www.arimetrics.com/glosario-digital/insight</a></p>
+                        <hr>
+                        <p>Chaffey, D., &amp; Smith, P. (2008). Emarketing Excellence Planning and optimizing your digital marketing. AmsterdamAmsterdam: Butterworth-Heinemann Ltd.</p>
+                        <hr>
+                        <p>Google. (2020). Empezar a usar Analytics. Support.google.com<a class="ml-2" href="https://support.google.com/analytics/answer/1008015?hl=es" target="_blank">https://support.google.com/analytics/answer/1008015?hl=es</a></p>
+                        <hr>
+                        <p>Google. (2020). Su guía para Google Ads. Support.google.com.<a class="ml-2" href="https://support.google.com/google-ads/answer/6146252?hl=es-419" target="_blank">https://support.google.com/google-ads/answer/6146252?hl=es-419</a></p>
+                        <hr>
+                        <p>Google. (2020). Explicación de la página principal. Support.google.com.<a class="ml-2" href="https://support.google.com/trends/answer/6248105?hl=es&amp;ref_topic=6248052" target="_blank">https://support.google.com/trends/answer/6248105?hl=es&amp;ref_topic=6248052</a></p>
+                        <hr>
+                        <p>Marketing Directo. (2020). Diccionario de marketing. Marketingdirecto.com<a class="ml-2" href="https://www.marketingdirecto.com/diccionario-marketing-publicidad-comunicacion-nuevas-tecnologias" target="_blank">https://www.marketingdirecto.com/diccionario-marketing-publicidad-comunicacion-nuevas-tecnologias</a></p>
+                        <hr>
+                        <p>Marketing y Finanzas. (2020). ¿Qué es una propuesta de Valor y cómo hacerla efectiva? Marketingyfinanzas.net<a class="ml-2" href="https://www.marketingyfinanzas.net/2015/09/que-propuesta-de-valor/" target="_blank">https://www.marketingyfinanzas.net/2015/09/que-propuesta-de-valor/</a></p>
+                        <hr>
+                        <p>Mejia Llano, J. C. (22 de octubre de 2019). Indicadores de redes sociales. Juancmejia.com<a class="ml-2" href="https://www.juancmejia.com/redes-sociales/kpis-de-redes-sociales-guia-con-principales-metricas-e-indicadores-de-social-media/" target="_blank">https://www.juancmejia.com/redes-sociales/kpis-de-redes-sociales-guia-con-principales-metricas-e-indicadores-de-social-media/</a></p>
+                        <hr>
+                        <p>Mintic. (7 de septiembre de 2020). Entorno digital. www.mintic.gov.co<a class="ml-2" href="https://www.mintic.gov.co/portal/inicio/18724:Entorno-digital" target="_blank">https://www.mintic.gov.co/portal/inicio/18724:Entorno-digital</a></p>
+                        <hr>
+                        <p>Observatorio de eComerce. (2019). Medición de Indicadores.</p>
+                        <hr>
+                        <p>Osterwalder, A., &amp; Pigneur, Y. (2015). Diseñando la propuesta de valor. Paidos</p>
+                        <hr>
+                        <p>Real Academia Española. (2019). Real Academia Española. En Diccionario de la Lengua Española (edición trisentenario). Obtenido de https://dle.rae.es/celebridad</p>
+                        <hr>
+                        <p>Trias, M., González, P., &amp; Flores, L. (2009). Las 5 W + H y el ciclo de mejora en la gestión de procesos. Innotec Gestión Revista Del Laboratorio Tecnológico Del, 20-25.</p>
+                        <hr>
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-12 col-md-5 my-4">
+                                <div class="jumbotron p-4">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <p class="text-center pl-4"><i class="fa fa-picture-o fa-2x text-center"></i></p>
+                                        <p class="text-center flex-grow-1">Fotografías y vectores tomados de <a href="https://www.shutterstock.com/" target="_blank">https://www.shutterstock.com/</a> y <a href="https://www.freepik.es/" target="_blank">https://www.freepik.es/</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-5 my-4">
+                                <div class="jumbotron p-4">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <p class="text-center pl-4"><i class="fa fa-creative-commons fa-2x text-center"></i></p>
+                                        <p class="text-center flex-grow-1">Licencia Creative Commons <br> <strong>CC BY-NC-SA</strong><br> <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/es/" target="_blank">Ver licencia.</a> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id="Creditos">
+            <div class="container">
+                <h1>Créditos </h1>
+                <div class="brand-line-primary"></div>
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <h3 class="footer-subtitulo mb-4">ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES </h3>
+                        <p class="footer-texto mb-2"><strong>Ingry Dayanna Bonilla Monzon </strong><br /> <span class="text-small">Líder del equipo</span></p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 col-md-6">
+                        <h4 class="footer-subtitulo-2 mt-0">
+                            <div class="fa fa-caret-right mr-2"></div>Contenido Instruccional
+                        </h4>
+                        <p class="footer-texto mb-2"><strong>Gloria Matilde Lee Mejía </strong><br /> <span class="text-small">Responsable del equipo</span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Comercio y Servicios</span><br><span class="text-small">Regional Tolima</span></p>
+                        <p class="footer-texto mb-2"><strong>Rafael Nelftalí Lizcano Reyes</strong><br /> <span class="text-small">Asesor pedagógico<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA </span><br><span class="text-small">Regional Santander </span></p>
+                        <p class="footer-texto mb-2"><strong>Alexander Serrano Pereira</strong><br /><span class="text-small">Experto temático<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de manufactura, textil y de cuero </span><br><span class="text-small">Regional Distrito Capital</span></p>
+                        <p class="footer-texto mb-2"><strong>Leidy Carolina Arias Aguirre</strong><br /> <span class="text-small">Diseñadora instruccional<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de diseño y metrología </span><br><span class="text-small">Regional Distrito Capital </span></p>
+                        <p class="footer-texto mb-2"><strong>Julieth Paola Vital López</strong><br /> <span class="text-small">Corrección de estilo<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro para la Industria de la Comunicación Gráfica</span><br><span class="text-small">Regional Distrito Capital </span></p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h4 class="footer-subtitulo-2 mt-0">
+                            <div class="fa fa-caret-right mr-2"></div>Diseño y desarrollo de recursos educativos digitales
+                        </h4>
+                        <p class="footer-texto"><strong>Francisco José Lizcano Reyes </strong><br /> <span class="text-small">Responsable del equipo<br /></span></p>
+                        <p class="footer-texto"><strong>Leyson Fabián Castaño Pérez</strong><br /> <span class="text-small">Integración de recursos y pruebas<br /></span></p>
+                        <p class="footer-texto"> <strong>Adriana Rincón Avendaño</strong><br />
+                            <strong>Camilo Andrés Villamizar Lizcano</strong><br />
+                            <strong>Daniel Ricardo Mutis Gómez</strong><br>
+                            <strong>José Jaime Luis Tang Pinzón</strong><br />
+                            <strong>Lady Adriana Ariza Luque</strong><br />
+                            <strong>Maria Camila Ovalle Ospina</strong><br />
+                            <strong>Nelson Iván Vera Briceño</strong><br />
+                            <strong>Oleg Litvin</strong><br />
+                            <strong>Yazmin Rocio Figueroa Pacheco</strong><br />
+                            <strong>Yenny patricia Ulloa Villamizar</strong><br />
+                            <strong>Víctor Raúl Cárdenas Cáceres</strong><br /> <span class="text-small">Diseño web & producción audiovisual<br /></span></p>
+                        <p class="footer-texto"><strong>Daniel Ricardo Mutis Gómez</strong><br /> <span class="text-small">Desarrollo front-end<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA </span><br><span class="text-small">Regional Santander</span></p>
+                        <h4 class="footer-subtitulo-2 mt-5">
+                            <div class="fa fa-caret-right mr-2"></div>Gestores de repositorio
+                        </h4>
+                        <p class="footer-texto"><strong>Brayan Steven Pinto Díaz</strong><br />
+                            <strong>Edilson Laverde Molina</strong><br />
+                            <strong>Ricardo Alfonso González Vargas</strong><br /> <span class="text-small">Validación de recursos<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de comercio y servicios </span><br><span class="text-small">Regional Tolima</span></p>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center mt-5"><img src="assets/images/logos/senaLogo.svg" style="max-width:100px"></div>
+            </div>
+        </footer>
+        <section id="cc">
+            <div class="container">
+                <div class="d-flex flex-column flex-sm-row"><span class="pr-3"><i class="icon cc"></i></span><span>Este material puede ser distribuido, copiado y exhibido por terceros si se muestra en los créditos. No se puede obtener ningún beneficio comercial y las obras derivadas tienen que estar bajo los mismos términos de la licencia que el trabajo original.</span></div>
+            </div>
+        </section><a class="scroll-to-top-btn">
+            <div class="fa fa-angle-up fa-2x"></div>
+        </a>
+        <script src="assets/js/vendor.js"></script>
+        <script src="js/local.js"></script>
+    </body>
+</html>
