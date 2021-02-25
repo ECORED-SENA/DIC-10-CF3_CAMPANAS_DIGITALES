@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="SENA - Actividad Did&amp;#225;ctica 03" />
+              <option name="title_text" value="SENA - Actividad Didactica 03" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1134,7 +1134,10 @@
   </colorschemes>
   <string_tables>
     <string_table name="npnxnanbnsnfns00000000001">
-      <string id="replay_shortcut">Volver a reproducir la diapositiva</string>
+      <string id="three_image_items">ítems</string>
+      <string id="three_image_viewed">vistos</string>
+      <string id="three_image_of">de</string>
+      <string id="three_image_item">ítem</string>
       <string id="more_info">Más información</string>
       <string id="bio">Biografía</string>
       <string id="enable_keyboardshortcuts">Activar atajos del teclado</string>
@@ -1150,6 +1153,7 @@
       <string id="playpause_shortcut">Reproducir/Pausar</string>
       <string id="next_shortcut">Siguiente diapositiva</string>
       <string id="mute_shortcut">Silenciar/Desactivar silencio</string>
+      <string id="replay_shortcut">Volver a reproducir la diapositiva</string>
       <string id="prev">ANT</string>
       <string id="acc_previous">siguiente</string>
       <string id="clear">Borrar y volver al menú</string>
@@ -1176,6 +1180,7 @@
       <string id="terms">Condiciones</string>
       <string id="search_in">Buscar en:</string>
       <string id="send_an_email">Enviar correo electrónico</string>
+      <string id="keyboardshortcuts_lower">Atajos de teclado</string>
       <string id="accessible_text">Texto accesible</string>
       <string id="zoom_to_fit">Zoom para ajustar</string>
       <string id="transcript_chk">Notas</string>
@@ -1194,6 +1199,8 @@
       <string id="desktop_start">Comenzar el curso</string>
       <string id="mobile_start">Comenzar el curso</string>
       <string id="acc_search_input">búsqueda</string>
+      <string id="acc_locked">bloqueado</string>
+      <string id="acc_visited">visitado</string>
       <string id="sidebar_toggle">Mostrar/ocultar barra lateral</string>
       <string id="search_toggle">Buscar</string>
       <string id="question_list">Lista de preguntas</string>
@@ -1234,11 +1241,11 @@
             <slidelink slideid="_player.6iPYYXYye9N.60B7h4FKhhU" displaytext="Diapositiva sin título" expand="false" type="slide" />
             <slidelink slideid="_player.6iPYYXYye9N.6EdoTcI4Roc" displaytext="De los siguientes medios ¿cuál elegiría para promocionar una prenda confortable para ir de verano?" expand="false" type="slide" />
             <slidelink slideid="_player.6iPYYXYye9N.5uVIgLPGjJB" displaytext="Si debe elegir una estrategia para ofertar un producto, pero al mismo tiempo recibir retroalimentación del cliente, ¿cuál de las siguientes elegiría?" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.63i4InuWfxi" displaytext="Si el objetivo de la campaña digital de la marca, es la de promocionar el catálogo de productos a la mayor cantidad de público posible, ¿qué estrategia y acciones elegiría?" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.6eM5W10Xg4s" displaytext="¿De acuerdo al modelo SOSTAC, cuál sería el orden adecuado para realizar una campaña digital?" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.6pc3jnWRvxW" displaytext="¿Teniendo en cuenta el Buyer persona qué fotografía elegiría para publicar en redes sociales y atraer a clientes como Sayra?" expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.63i4InuWfxi" displaytext="Si el objetivo de la campaña digital de la marca, es la de promocionar el catálogo de productos a la mayor cantidad de público posible, ¿Qué estrategia y acciones elegiría?" expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.6eM5W10Xg4s" displaytext="¿De acuerdo al modelo SOSTAC cual sería el orden adecuado para realizar una campaña digital?" expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.6pc3jnWRvxW" displaytext="¿Teniendo en cuenta el Buyer persona que fotografía elegiría para publicar en redes sociales y atraer a clientes como Sayra?" expand="false" type="slide" />
             <slidelink slideid="_player.6iPYYXYye9N.68NRfRpe8TB" displaytext="¿Qué tipo de indicadores seleccionaría para medir el éxito y el impacto frente a la audiencia de la campaña de social media para la fotografía seleccionada?" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.5uRwyURmlAV" displaytext="Si se quiere analizar la popularidad de la pagina web de la marca, frente a otras a nivel mundial ¿qué herramienta utilizaría para dicho análisis?" expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.5uRwyURmlAV" displaytext="Si se quiere analizar la popularidad de la página web de la marca, frente a otras a nivel mundial ¿qué herramienta utilizaría para dicho análisis?" expand="false" type="slide" />
             <slidelink slideid="_player.6iPYYXYye9N.5ll8DSOnvRK" displaytext="Si se quiere analizar y hacer seguimiento de la cuenta de Instagram de la marca ¿qué herramienta utilizaría para dicho análisis y seguimiento?" expand="false" type="slide" />
             <slidelink slideid="_player.6iPYYXYye9N.6E7xgjNJspf" displaytext="Si se quiere conocer intereses y pasatiempos de la audiencia en Facebook ¿qué herramienta utilizaría para dicha tarea?" expand="false" type="slide" />
             <slidelink slideid="_player.6iPYYXYye9N.6Gd5lruUb2R" displaytext="Si se quiere analizar el tráfico de la página web de la marca para analizar el comportamiento del usuario en la página ¿qué herramienta utilizaría para dicha tarea?" expand="false" type="slide" />
